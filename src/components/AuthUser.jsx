@@ -12,7 +12,6 @@ export default  function AuthUser({setAuthState}){
     const user = async ()=>{
         try{
             const response = await signInWithPopup(auth,provider);
-            console.log(response)
             cookie.set("auth-token",response.user.refreshToken);   
             setAuthState(cookie.get("auth-token"));      
         }catch(err){
