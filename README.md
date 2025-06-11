@@ -37,3 +37,46 @@
 ### 💬 Chat Room Page
 ![Chat Room](/screenshots/linkUpRoom.png)
 
+
+## 🔨 Installation & Setup
+
+1️⃣ Clone the repo:
+
+```bash
+git clone https://github.com/your-username/linkup.git
+cd linkup
+```
+
+2️⃣ Install dependencies:
+
+```bash
+npm install
+```
+
+3️⃣ Add your Firebase credentials to .env as shown above.
+
+4️⃣ Start the development server:
+
+```bash
+npm run dev
+```
+
+## 💡 Future Improvements
+
+✅ User presence indicator (online/offline)
+✅ Push notifications
+✅ Profile pictures
+
+## 🤝 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## 🙏 Acknowledgments
+
+-Inspired by many realtime chat apps.
+Built for learning, experimenting & fun 🎯
+ 
+
+
+
+
