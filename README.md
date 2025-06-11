@@ -31,7 +31,7 @@
 ### 🔐 Sign In Page
 ![Sign In](/screenshots/linkUpSignIn.png)
 
-### 💬 Room Enter Page
+### 🚪 Room Enter Page
 ![Room Input](/screenshots/linkUpRoomInput.png)
 
 ### 💬 Chat Room Page
