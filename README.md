@@ -29,10 +29,10 @@
 ## 📸 Screenshots
 
 ### 🔐 Sign In Page
-![Sign In](/screenshots/linkUpSignIn.png)
+![Sign In](/screenshots/linkUpsignIn.png)
 
 ### 🚪 Room Enter Page
-![Room Input](/screenshots/linkUpRoomInput.png)
+![Room Input](/screenshots/linkUproomInput.png)
 
 ### 💬 Chat Room Page
 ![Chat Room](/screenshots/linkUpRoom.png)
