@@ -22,11 +22,13 @@ body{
 .msgContainer{
     border: none;
     border-radius: 15px;
-    width: 680px;
-    height: 70vh;
+    width: 100%;
+    max-width: 680px;
+    height: 60vh;
     padding: 8px 10px;
     background-color: rgb(70, 112, 126);
-    overflow-y: scroll; 
+    overflow-y: auto; 
+    scrollbar-gutter: stable;
 }
 
 .msgContainer::-webkit-scrollbar {
@@ -71,15 +73,15 @@ body{
 }
 
 .msgForm input{
-    width: 560px;
-    height: 30px;
-    border-radius: 10px;
-    outline: none;
-    border: none;
-    background-color: rgb(70, 112, 126);
-    padding: 8px 12px;
-    font-size: 14px;
-    color: white;
+  flex: 1;
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: rgb(70, 112, 126);
+  padding: 8px 12px;
+  font-size: 16px;
+  color: white;
 }
 
 .msgForm input::placeholder{
@@ -87,8 +89,9 @@ body{
 }
 
 .msgForm button{
-    width:90px;
-    height: 30px;
+    flex-shrink: 0;
+    height: 40px;
+    padding: 0 20px;
     border-radius: 10px;
     font-size: 16px;
     font-weight: bold;
