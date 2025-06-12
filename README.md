@@ -1,12 +1,82 @@
-# React + Vite
+# LinkUp 🗨️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**LinkUp** is a realtime chatroom web app where users can sign in, create or join multiple chat rooms, and chat with others in real-time.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔐 User authentication (Sign in)
+- 🏷️ Create or join multiple chat rooms by entering a room name
+- 💬 Realtime messaging with instant updates
+- 📂 Room-based chat separation
+- 🚪 Leave room and join another anytime
+- 📄 Auto-scroll to latest messages
+- 📦 Simple, clean, and responsive UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🔧 Tech Stack
+
+- **React** (with Vite)
+- **Firebase** (Authentication & Realtime Database)
+- **JavaScript (ES6)**
+- **CSS Modules**
+- **Universal Cookie / LocalStorage** (state management & persistence)
+
+---
+
+## 📸 Screenshots
+
+### 🔐 Sign In Page
+![Sign In](/screenshots/linkUpsignIn.png)
+
+### 🚪 Room Enter Page
+![Room Input](/screenshots/linkUproomInput.png)
+
+### 💬 Chat Room Page
+![Chat Room](/screenshots/linkUpRoom.png)
+
+
+## 🔨 Installation & Setup
+
+1️⃣ Clone the repo:
+
+```bash
+git clone https://github.com/your-username/linkup.git
+cd linkup
+```
+
+2️⃣ Install dependencies:
+
+```bash
+npm install
+```
+
+3️⃣ Add your Firebase credentials to .env as shown above.
+
+4️⃣ Start the development server:
+
+```bash
+npm run dev
+```
+
+## 💡 Future Improvements
+
+✅ User presence indicator (online/offline)
+✅ Push notifications
+✅ Profile pictures
+
+## 🤝 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## 🙏 Acknowledgments
+
+-Inspired by many realtime chat apps.
+Built for learning, experimenting & fun 🎯
+ 
+
+
+
+
