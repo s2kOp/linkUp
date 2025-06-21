@@ -22,8 +22,7 @@ body{
 .msgContainer{
     border: none;
     border-radius: 15px;
-    width: 100%;
-    max-width: 680px;
+    width: 680px;
     height: 60vh;
     padding: 8px 10px;
     background-color: rgb(70, 112, 126);
